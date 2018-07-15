@@ -1,0 +1,7 @@
+Node.js dependencies 
+    1. v8
+    2. libuv // C library
+    3. http-parser // C library to parse http messages for both request and response
+    4. c-ares is what performs async dns querys 
+    5. OpenSSL is used in tls encripto module, it provide encription for many criptography funcitons 
+    6. zlib - fast async and stryming compression and decompression engine 
