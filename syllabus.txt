@@ -1,0 +1,294 @@
+Node.js
+	Introduction
+		Node.js Background
+		Getting Node.js
+		Demo: Installing Node on Linux/Windows with NVM
+		Node's Event Loop
+		Node Conventions for Writing Asychronous Code
+		Modules, require() and NPM
+		Introduction, Accessing Built-in Modules
+		Finding 3rd Party Modules via NPM
+		
+	Express
+		Introduction
+		Setting up Express
+		Running Express
+		Debugging Options
+		Static Files - Public Directory
+		Introduction, Making Web Requests in Node
+		Building a Web Server in Node
+		Demo: Building a Web Server in Node
+		
+	Routing
+		Introduction
+		Navigation
+		Routing
+		Rendering
+		Separate Files
+		Router Functions
+		
+
+	Events and Streams
+		Introduction
+		Events and the EventEmitter class
+		Readable and Writable Streams, the Pipe function
+		Demo: Readable and Writable Streams
+		Demo: Piping Between Streams
+
+	Accessing the Local System
+		The Process Object
+		Demo: The Process object
+		Interacting with the File System
+		Demo: Interacting with the File System
+		What is a Buffer?
+		The OS Module
+
+
+	Authentication
+		Introduction to Authentication
+		Auth Routes
+		Passport
+		Local Strategy
+	
+	Socket.IO
+		Realtime Interaction with Socket.IO
+		Demo: Socket.IO
+
+
+
+	Testing and Debugging
+		Introduction, The Assert Module
+		Demo: The Assert Module
+		Testing with Mocha and Should.js
+		Demo: Mocha and Should.js
+
+	Scaling Your Node Application
+		Introduction, The Child Process Module
+		Demo: The "exec" function
+		Demo: The "spawn" function
+		Demo: The "fork" function
+		Scaling with Node's Cluster Module
+		Demo: Building a Clustered Web Server
+		
+MongoDB
+	Introduction
+		Downloading
+		Package Content
+		First Run 
+		Command Line Options
+		Verify Server
+		Getting Help in the Shell
+
+	Saving Data
+		Introduction
+		Overview
+		Storage
+		BSON
+		Saving Documents
+		Collections
+		Document Id
+		ObjectId
+		Insert
+		Insert with Id
+		Complex Document
+		Save Danger
+		Update Command
+		Update Demo
+		Set Operator
+		Unset Operator
+		Rename Operator
+		Push Operator
+		Pull Operator
+		Pop Operator
+		Array Type
+		Multi Update
+		Find And Modify
+		Query With Sort
+		
+	Finding Documents
+		Introduction
+		Overview
+		find()
+		Equality
+		Projection
+		Comparison
+		$not
+		$in
+		Arrays
+		$all
+		$nin
+		Dot Notation
+		Sub-Document
+		null and $exists
+		And
+		Cursor
+		sort()
+		limit()
+		skip()
+		findOne()
+		
+	Deleting Document
+		remove
+		deleteOne
+		deleteMany
+
+	Indexing
+		Introduction
+		Overview
+		Scan Is Bad
+		Index Theory
+		Sort Uses Index
+		Index Types
+		Create Index
+		system.indexes collection
+		explain()
+		dropIndex()
+		Index Name
+		
+Angular.js
+	Getting Started with Angular
+		Introduction
+		Introduction to TypeScript
+		Comparing Angular to AngularJS
+		A Conceptual Overview of Angular
+		Getting Started with the Angular CLI
+		Bootstrapping an Angular App
+		A Brief Look at the App Module
+		Accessing Static Files
+		
+	Creating and Communicating Between Angular Components
+		Introduction
+		Creating Your First Data-bound Component
+		Using External Templates
+		Communicating with Child Components Using @Input
+		Communicating with Parent Components Using @Output
+		Using Template Variables to Interact with Child Components
+		Styling Components
+		Exploring Angular's CSS Encapsulation
+		Adding a Site Header
+		
+	Exploring the Angular Template Syntax
+		Introduction
+		Interpolation, Property Bindings, and Expressions
+		Event Bindings and Statements
+		Repeating Data with ngFor
+		Handling Null Values with the Safe-Navigation Operator
+		Hiding and Showing Content with ngIf
+		Hiding Content with the [Hidden] Binding
+		Hiding and Showing Content with ngSwitch
+		Styling Components with ngClass
+		Styling Components with ngStyle
+		
+	Creating Reusable Angular Services
+		Introduction
+		Why We Need Services and Dependency Injection
+		Creating Your First Service
+		Wrapping Third Party Services
+		
+	Routing and Navigating Pages
+		Introduction
+		Adding Multiple Pages to Your App
+		Adding Your First Route
+		Accessing Route Parameters
+		Linking to Routes
+		Navigating from Code
+		Guarding Against Route Activation
+		Guarding Against Route De-activation
+		Pre-loading Data for Components
+		Styling Active Links
+		
+	Collecting Data with Angular Forms and Validation
+		Introduction
+		Using Models for Type Safety
+		Creating Your First Template-based Form
+		Using the Data from Your Template-based Form
+		Validating Template-based Forms
+		Creating Your First Reactive Form
+		Validating Reactive Forms
+		Using Multiple Validators in Reactive Forms
+		Diving Deeper into Template-based Forms
+		Editing Data with Two-way Bindings
+		Diving Deeper into Reactive Forms
+		Creating Custom Validators
+		
+	Communicating Between Components
+		Introduction
+		Passing Data into a Child Component
+		Passing Data out of a Child Component
+		
+	Reusing Components with Content Projection
+		Introduction
+		Content Projection
+		Multiple Slot Content Projection
+		
+	Displaying Data with Pipes
+		Introduction
+		Using Built-in Pipes
+		Creating a Custom Pipe
+		Sorting and Filtering Overview
+		Creating a Filtering Display
+		Filtering Data
+		Sorting Data
+		Summary
+		
+	Understanding Angular's Dependency Injection
+		Introduction
+		Using Third Party Global Services
+		Angular Dependency Injection Lookup
+		Using Angular's InjectionToken
+		Using Angular's @Inject Decorator
+		The useClass Provider
+		The useExisting and useFactory Providers
+		
+	Creating Directives and Advanced Components in Angular
+		Introduction
+		Implementing the Session Search
+		Adding jQuery
+		Creating a Modal Component
+		Fixing Template Parse Errors
+		Creating Directives 
+		Binding an ID
+		Routing to the Same Component
+		Using the @ViewChild Decorator
+		Creating Settings on Components
+		
+	Communicating with the Server Using HTTP, Observables
+		Introduction
+		Preparing to Store Data on the Server
+		Moving Data Storage to the Server
+		Listening to Resolved Data Changes
+		Using POST and PUT
+		Using QueryString Parameters
+		Using DELETE
+		Integrating Authentication with the Server
+		Persisting Authentication Status Across Page Refreshes
+		Saving User Data to the Server
+		Implementing Logout
+
+	Unit Testing Your Angular Code
+		Introduction
+		Installing Karma6m 16s
+		Unit Testing Services8m 16s
+		Testing Mock Calls5m 44s
+		Testing Components with Isolated Tests
+		
+	Testing Angular Components with Integrated Tests
+		Introduction
+		Setting up for Integrated Tests
+		Testing Components with Deep Integrated Tests
+		Creating Mock Services
+		Using DebugElement
+		Testing Components with Shallow Integrated Tests
+		
+	Taking an Angular App to Production
+		Introduction
+		Linting Overview
+		Installing TSLint in VSCode
+		Using TSLint with VSCode
+		Linting from the Command Line
+		Going to Production - Overview
+		Creating your First Build
+		Basic Deployment
+		Build Flags
+		The Effects of Prod Mode
+		Optimistic Bundle Downloading
