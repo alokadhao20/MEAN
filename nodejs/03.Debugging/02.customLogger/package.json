@@ -1,11 +1,14 @@
 {
-  "name": "staticfiles",
+  "name": "customlogger",
   "version": "1.0.0",
   "description": "",
-  "main": "staticFIlesServer.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alok Adhao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.0.0"
+  }
 }

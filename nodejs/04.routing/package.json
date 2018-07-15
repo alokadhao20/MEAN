@@ -1,0 +1,17 @@
+{
+  "name": "serverproject",
+  "version": "1.1.0",
+  "description": "",
+  "main": "ExpressBasicServer02.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "inspect": "0.0.2",
+    "multer": "^1.3.1",
+    "multiparty": "^4.1.4"
+  }
+}
