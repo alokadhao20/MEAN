@@ -1,0 +1,19 @@
+{
+  "name": "01.introduction",
+  "version": "1.0.0",
+  "description": "node.js introduction",
+  "main": "03.eventLoop01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alokadhao20/MEAN.git"
+  },
+  "author": "Alok Adhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alokadhao20/MEAN/issues"
+  },
+  "homepage": "https://github.com/alokadhao20/MEAN#readme"
+}
